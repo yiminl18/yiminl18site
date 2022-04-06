@@ -87,6 +87,6 @@ email: "yiminl18@uci.edu"
 highlight_name: true
 ---
 
-Yiming is currently a PhD student from University of California, Irvine from 2017. Before that, he earned master and bachelor degree of computer science in Harbin Institute of Technology. His research interests include data cleaning, query processing and building efficient online data processing system. 
+Yiming is currently a PhD student from [ISG group]('https://isg.ics.uci.edu'), University of California, Irvine from 2017, under the surpervision of [Prof. Sharad Mehrotra]('https://www.ics.uci.edu/~sharad/'). Before that, he earned master and bachelor degree of computer science in Harbin Institute of Technology. His research interests include data cleaning, query processing and building efficient online data processing system. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

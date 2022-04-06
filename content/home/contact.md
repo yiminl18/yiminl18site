@@ -48,9 +48,10 @@ content:
       name: Linkedin
       link: 'https://www.linkedin.com/'
     - icon: google
-      icon_pack: fas
+      icon_pack: fab
       name: Google Scholar
       link: 'https://scholar.google.com/citations?hl=en&user=9_iiygEAAAAJ'
+
 
 design:
   columns: '2'

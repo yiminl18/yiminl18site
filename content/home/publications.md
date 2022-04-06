@@ -13,6 +13,7 @@ title: Publications
 subtitle: ''
 
 content:
+  page_type: publication
   # Filter on criteria
   filters:
     folders:

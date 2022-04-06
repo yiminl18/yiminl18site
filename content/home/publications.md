@@ -16,8 +16,8 @@ content:
   page_type: publication
   # Filter on criteria
   filters:
-    #folders:
-    #  - publication
+    folders:
+     - publication
     tag: ''
     category: ''
     publication_type: ''

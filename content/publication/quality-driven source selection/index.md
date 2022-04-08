@@ -35,8 +35,7 @@ publication_short: In *Journal of Systems and Software, 2016*
 abstract: The query based on massive database is time-consuming and difficult. And the uneven quality of data
 source makes the multiple source selection more challenging. The low-quality data source can even make
 the result of the information unexpected. How to efficiently select quality-driven data sources on massive
-database remains a hard problem. In this paper, we study the efficient source selection problem on mas-
-sive data set considering the quality of data sources. Our approach evaluates the quality of data source
+database remains a hard problem. In this paper, we study the efficient source selection problem on massive data set considering the quality of data sources. Our approach evaluates the quality of data source
 and balances the limitation of resources and the completeness of data source. For data source selection
 for a specific query, our method could select the data sources with the number of keywords larger than
 a given threshold. And the selected sources are ranked according to the values of information in data
@@ -58,13 +57,13 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0164121216300577'
-# url_code: 'https://github.com/yiminl18/contactExposure.git'
-# url_dataset: ''
-# url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'
-# url_project: ''
-# url_slides: ''
-# url_source: ''
-# url_video: 'https://www.youtube.com/watch?v=K8SHPoCbimI'
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

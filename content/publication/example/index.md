@@ -18,7 +18,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "November 2020"
+date: "2020-11-01T00:00:00Z" # should stick to this format
 doi: "10.14778/3430915.3430923"
 
 # Schedule page publish date (NOT publication's date).

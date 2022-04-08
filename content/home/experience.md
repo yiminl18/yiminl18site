@@ -25,7 +25,7 @@ experience:
   - title: Applied Scientist Intern
     company: Amazon
     company_url: ''
-    company_logo: amazon
+    #company_logo: amazon
     location: Seattle
     date_start: '2021-06-21'
     date_end: '2021-09-10'
@@ -41,7 +41,7 @@ experience:
   - title: Research Assistant 
     company: University of California, Irvine 
     company_url: ''
-    company_logo: UCI
+    #company_logo: UCI
     location: California
     date_start: '2017-09-01'
     date_end: ''

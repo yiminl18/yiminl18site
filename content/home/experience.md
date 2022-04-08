@@ -25,7 +25,7 @@ experience:
   - title: Applied Scientist Intern
     company: Amazon
     company_url: ''
-    company_logo: Amazon
+    company_logo: Amazon.png
     location: Seattle
     date_start: '2021-06-21'
     date_end: '2021-09-10'

@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: <span style="color:blue"> *Applied Scientist Intern* </span>
+  - title: <span style="color:black"> Applied Scientist Intern </span>
     company: Amazon
     company_url: ''
     #company_logo: amazon
@@ -38,7 +38,7 @@ experience:
     #     * Modelling
     #     * Deploying
         
-  - title: Research Assistant 
+  - title: <span style="color:black"> Research Assistant  </span>
     company: University of California, Irvine 
     company_url: ''
     #company_logo: UCI

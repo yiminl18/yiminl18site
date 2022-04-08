@@ -18,7 +18,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-11-01T00:00:00Z"  # should stick to this format
+#date: "2020-11-01T00:00:00Z"  # should stick to this format
 #doi: "10.14778/3430915.3430923"
 
 # Schedule page publish date (NOT publication's date).
@@ -32,7 +32,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the VLDB Endowment*
-publication_short: In *PVLDB 2020*
+publication_short: In *PVLDB 2021*
 
 abstract: This paper explores the data cleaning challenges that arise in using WiFi connectivity data to locate users to semantic indoor locations such as buildings, regions, rooms. WiFi connectivity data consists of sporadic connections between devices and nearby WiFi access points (APs), each of which may cover a relatively large area within a building. Our system, entitled semantic LOCATion cleanER (LO- CATER), postulates semantic localization as a series of data cleaning tasks - first, it treats the problem of determining the AP to which a device is connected between any two of its connection events as a missing value detection and repair problem. It then associates the device with the semantic subregion (e.g., a conference room in the region) by postulating it as a location disambiguation problem. LO- CATER uses a bootstrapping semi-supervised learning method for coarse localization and a probabilistic method to achieve finer local- ization. The paper shows that LOCATER can achieve significantly high accuracy at both the coarse and fine levels.
 

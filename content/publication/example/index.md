@@ -73,7 +73,7 @@ url_video: 'https://www.youtube.com/watch?v=0PqmHTkI_Aw'
 #   Otherwise, set `projects: []`.
 
 #projects: LOCATER
-
+---
 #- example
 
 # Slides (optional).

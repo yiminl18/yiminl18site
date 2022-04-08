@@ -19,10 +19,10 @@ authors:
 # - "Equal contribution"
 
 #date: "2020-11-01T00:00:00Z"  # should stick to this format
-#doi: "10.14778/3430915.3430923"
+doi: "10.14778/3430915.3430923"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-11-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

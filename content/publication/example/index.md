@@ -18,8 +18,8 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-#date: "2013-07-01T00:00:00Z"
-#doi: ""
+date: "November 2020"
+doi: "10.14778/3430915.3430923"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -82,7 +82,7 @@ url_video: 'https://www.youtube.com/watch?v=0PqmHTkI_Aw'
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 #slides: example
----
+<!-- ---
 
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -92,4 +92,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->

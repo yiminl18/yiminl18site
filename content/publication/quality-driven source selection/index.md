@@ -30,7 +30,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Journal of Systems and Software, 2016*
-publication_short: In *Journal of Systems and Software, 2016*
+publication_short: In **Journal of Systems and Software, 2016**
 
 abstract: The query based on massive database is time-consuming and difficult. And the uneven quality of data source makes the multiple source selection more challenging. The low-quality data source can even make the result of the information unexpected. How to efficiently select quality-driven data sources on massive database remains a hard problem. In this paper, we study the efficient source selection problem on massive data set considering the quality of data sources. Our approach evaluates the quality of data source and balances the limitation of resources and the completeness of data source. For data source selection for a specific query, our method could select the data sources with the number of keywords larger than a given threshold. And the selected sources are ranked according to the values of information in data sources. Experimental results demonstrate that our method can scale to millions of data sources and perform pretty efficiently. 
 

@@ -1,9 +1,8 @@
 ---
 title: T-COVE
 summary: T-COVE is an exposure tracing and occupancy system based on cleaning wi-fi events on organizational premises. It first supports a real-time occupancy tracking application that displays real-time occupancy, i.e., the number of users, of locations of different granularities, such as building/floor/region. T-COVE has been deployed in over 30 buildings in UCI and BSU campuses and has been running since 2020. T-COVE will be planned to be installed in several other campuses and companies in the future. Another application supported in T-COVE is a passive exposure tracing system with potentially 100\% adoption in campus area, that could be used effectively to track exposures as one of COVID-19 protection polycies in UCI. T-COVE is *passive* and *off-the-shelf* without the needs to install any new hardware or software while achieving a very usable accuracy, around 90\%. 
-
 - [Occupancy]('https://tippersweb.ics.uci.edu/covid19/d/UUeKIMPMz/engineering-occupancy-counts?orgId=1') system displays real-time occupancies in bulding/floor/region level in multiple buildings in UCI and BSU. 
-- 
+
 tags:
 - Data Cleaning, Contact Tracing 
 date: "2016-04-27T00:00:00Z"

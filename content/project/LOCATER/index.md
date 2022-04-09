@@ -10,8 +10,6 @@ external_link: ""
 
 description: LOCATER has been applied in several real-world applications, such as T-COVE project including real-time occupancy and contact tracing, and has been deployed in UCI and BSU campuses over 30+ buildings since 2020.  The technical paper of LOCATER appears in PVLDB 2021, volumn 13, page 329–341. Please check the following links to see our real-world applications that are being used in UCI and BSU built based on LOCATER. 
 
-- 
-- 
 
 # image:
 #   caption: Photo by rawpixel on Unsplash

@@ -9,13 +9,11 @@ headless: true
 weight: 130
 
 title: Contact
-subtitle: 
-
+subtitle: Hi From California!
 
 
 content:
   # Automatically link email and phone or display as text?
-  Hi from California! 
   autolink: true
   
   # Email form provider

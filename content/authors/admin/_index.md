@@ -22,15 +22,15 @@ interests:
 - Query Processing
 - Efficient Online Data Processing Systems
 
-contact_links:
-    - icon: linkedin
-      icon_pack: fab
-      name: Linkedin
-      link: 'https://www.linkedin.com/'
-    - icon: google
-      icon_pack: fab
-      name: Google Scholar
-      link: 'https://scholar.google.com/citations?hl=en&user=9_iiygEAAAAJ'
+# contact_links:
+#     - icon: linkedin
+#       icon_pack: fab
+#       name: Linkedin
+#       link: 'https://www.linkedin.com/'
+#     - icon: google
+#       icon_pack: fab
+#       name: Google Scholar
+#       link: 'https://scholar.google.com/citations?hl=en&user=9_iiygEAAAAJ'
 # Education to show in About widget
 # education:
 #   courses:

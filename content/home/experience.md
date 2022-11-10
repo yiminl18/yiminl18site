@@ -51,5 +51,5 @@ experience:
     description: I worked on several projects with the focus of research areas in data cleaning, query processing and building efficient online data processing systems. 
 
 design:
-  columns: '3'
+  columns: '2'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "QUIP: Query-driven Missing Value Imputation"
+title: "ZIP: Lazy Imputation during Query Processing"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -17,7 +17,7 @@ authors:
 #doi: "10.14778/3476311.3476344"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-04-01T00:00:00Z"
+publishDate: "2022-11-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,10 +26,21 @@ publishDate: "2022-04-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ArXiv preprint, 2022*
-publication_short: In *ArXiv preprint 2022*
+publication: Under review in PVLDB 2023
+#publication_short: In *ArXiv preprint 2022*
 
-abstract: This paper develops a query-time missing value imputation framework, entitled QUIP, that minimizes the joint costs of  imputation and query execution. QUIP achieves this by modifying how relational operators are processed. It adds a cost-based decision function in each operator that checks whether the operator should invoke imputation prior to execution or to defer the imputations for downstream operators to resolve. QUIP implements a new approach to evaluating outer join that  preserve missing values during query processing,  and a bloom filter based index structure to optimize the space and running overhead. We have implemented QUIP using ImputeDB - a specialized database engine for data cleaning. Extensive experiments on both real and synthetic data sets demonstrates the effectiveness and efficiency of QUIP, which outperforms the state-of-the-art ImputeDB by 2 to 10 times on different query sets and data sets, and achieves the order-of-magnitudes improvement over offline approach. 
+abstract: This paper develops a query-time missing value imputation framework, entitled ZIP, that modifies relational operators to be imputation-
+aware in order to minimize the joint cost of imputing and query processing. The modified operators use a cost-based decision function
+to determine whether to invoke imputation or to defer to downstream operators to resolve missing values. The modified query
+processing logic ensures results with deferred imputations are identical to those produced if all missing values were imputed first. ZIP
+includes a novel outer-joined based approach to preserve missing
+values during execution, and a bloom filter based index to optimize
+the space and running overhead. ZIP is implemented by modify
+ing ImputeDB - a specialized database engine designed for data
+cleaning. Extensive experiments on both real and synthetic data
+sets demonstrate 2 to 10 times improvement when augmenting ImputeDB with ZIP-based deferred imputation. It also shows several
+orders-of-magnitude improvement compared to offline approach
+to cleaning.
 
 
 # Summary. An optional shortened abstract.
@@ -45,7 +56,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2204.00108.pdf'
+url_pdf: 'https://drive.google.com/file/d/1PciAzNQUU6_WRSxeqcvvpUI2_WKVVDk6/view'
 # url_code: 'https://github.com/yiminl18/contactExposure.git'
 # url_dataset: ''
 # url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'

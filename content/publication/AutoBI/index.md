@@ -27,8 +27,8 @@ publishDate: "2022-11-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Under review in *VLDB 2023*
-publication_short: Under review in *VLDB 2023*
+publication: Under review in **VLDB 2023**
+publication_short: Under review in **VLDB 2023**
 
 abstract: Business Intelligence (BI) is crucial in modern enterprises and billion-dollar business. Traditionally, technical experts like database administrators would manually prepare BI-models (e.g., in star or snowflake schemas) that join/connect tables in data warehouses, before less-technical business users can run analytics using end-user tools like dashboards. However, in recent years, the popularity of self-service BI (e.g., Tableau and Power-BI) creates an increasing demand for less technical end users to build BI-models themselves. We develop an Auto-BI system that helps end-users by accurately predicting BI models given a set of input tables. Using a unique dataset with over 100K real BI models havested from public sources, we show that traditional foreign-key detection methods are insufficient and can frequently produce incorrect results, as they focus on local pair-wise relationships without considering the  structure of the resulting graph that should likely observe (snowflake-like). We propose a principled graph-based optimization problem in Auto-BI that considers both local join prediction and global schema-graph structures, which we term k-Min-Cost-Arborescence (k-MCA), which builds upon a graph-theoretical concept called arborescence. While proving k-MCA is intractable and hard to approximate, we develop novel branch-and-bound algorithms that can produce provable optimal solutions, which surprisingly scales to the largest BI-models we encounter (100+ tables) with sub-second latency. Extensive experiments on 1000 real test cases suggest that Auto-BI is both efficient and accurate, achieving over 90\% F1-score when evaluated against ground-truth BI models that humans design.
 

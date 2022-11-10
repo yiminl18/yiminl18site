@@ -14,13 +14,14 @@ organizations:
   url: https://uci.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Data Cleaning, Query Processing, Efficient Online Data Processing Systems.
+bio: My research interests include Data Cleaning, Data Preparation, Query Processing, Query Optimization.
 
 # Interests to show in About widget
 interests:
 - Data Cleaning
+- Data Preparation
 - Query Processing
-- Efficient Online Data Processing Systems
+- Query Optimization
 
 # contact_links:
 #     - icon: linkedin

@@ -27,10 +27,9 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: Under review in PVLDB 2023
-#publication_short: In *ArXiv preprint 2022*
+publication_short: Under review in PVLDB 2023
 
-abstract: This paper develops a query-time missing value imputation framework, entitled ZIP, that modifies relational operators to be imputation-
-aware in order to minimize the joint cost of imputing and query processing. The modified operators use a cost-based decision function
+abstract: This paper develops a query-time missing value imputation framework, entitled ZIP, that modifies relational operators to be imputation-aware in order to minimize the joint cost of imputing and query processing. The modified operators use a cost-based decision function
 to determine whether to invoke imputation or to defer to downstream operators to resolve missing values. The modified query
 processing logic ensures results with deferred imputations are identical to those produced if all missing values were imputed first. ZIP
 includes a novel outer-joined based approach to preserve missing

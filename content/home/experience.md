@@ -30,7 +30,7 @@ experience:
     date_start: '2022-06'
     date_end: '2022-09'
     description: We developed an Auto Business Intelligence (BI) system that helps end-users by accurately predicting BI models given a set of input tables, i.e., to discover join columns accurately. We propose a principled graph-based optimization problem that considers both local join prediction and global schema-graph structures, which achieves over 90\% F1-score on real-world and TPC benchmarks.
-    
+
   - title: <span style="color:black"> Applied Scientist Intern </span>
     company: Amazon
     company_url: ''
@@ -51,5 +51,5 @@ experience:
     description: I worked on several projects with the focus of research areas in data cleaning, query processing and building efficient online data processing systems. 
 
 design:
-  columns: '2'
+  columns: '3'
 ---

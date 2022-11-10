@@ -26,8 +26,8 @@ publishDate: "2022-11-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Under review in PVLDB 2023
-publication_short: Under review in PVLDB 2023
+publication: Under review in *PVLDB 2023*
+publication_short: Under review in *PVLDB 2023*
 
 abstract: This paper develops a query-time missing value imputation framework, entitled ZIP, that modifies relational operators to be imputation-aware in order to minimize the joint cost of imputing and query processing. The modified operators use a cost-based decision function to determine whether to invoke imputation or to defer to downstream operators to resolve missing values. The modified query processing logic ensures results with deferred imputations are identical to those produced if all missing values were imputed first. ZIP includes a novel outer-joined based approach to preserve missing values during execution, and a bloom filter based index to optimize the space and running overhead. ZIP is implemented by modifying ImputeDB - a specialized database engine designed for data cleaning. Extensive experiments on both real and synthetic data sets demonstrate 2 to 10 times improvement when augmenting ImputeDB with ZIP-based deferred imputation. It also shows several orders-of-magnitude improvement compared to offline approach to cleaning.
 

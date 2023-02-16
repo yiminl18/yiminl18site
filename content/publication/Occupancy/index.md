@@ -45,14 +45,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-#url_pdf: 'https://drive.google.com/file/d/1PciAzNQUU6_WRSxeqcvvpUI2_WKVVDk6/view'
-# url_code: 'https://github.com/yiminl18/contactExposure.git'
-# url_dataset: ''
-# url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'
-# url_project: ''
-# url_slides: ''
-# url_source: ''
-# url_video: 'https://www.youtube.com/watch?v=K8SHPoCbimI'
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

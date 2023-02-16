@@ -1,4 +1,4 @@
----
+<!-- ---
 title: ZIP
 summary: ZIP develops a query-time missing value imputation framework that minimizes the joint costs of  imputation and query execution. QUIP  outperforms the state-of-the-art ImputeDB by 2 to 10 times on different query sets and data sets, and achieves the order-of-magnitudes improvement over offline approach. 
 tags: [Data Cleaning, Query Processing, Missing Value Imputation]
@@ -30,4 +30,4 @@ url_pdf: 'https://drive.google.com/file/d/1PciAzNQUU6_WRSxeqcvvpUI2_WKVVDk6/view
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-
+ -->

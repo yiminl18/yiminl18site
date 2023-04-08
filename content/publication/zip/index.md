@@ -1,5 +1,5 @@
 ---
-title: "ZIP: Lazy Imputation during Query Processing."
+title: "ZIP: Lazy Imputation during Query Processing"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 

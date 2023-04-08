@@ -1,5 +1,5 @@
 ---
-title: "Auto-BI: Automatically Build BI-Models Leveraging Local Join Prediction and Global Schema Graph."
+title: "Auto-BI: Automatically Build BI-Models Leveraging Local Join Prediction and Global Schema Graph"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 

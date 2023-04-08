@@ -29,8 +29,8 @@ publishDate: "2021-05-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the **VLDB** Endowment, 2021*
-publication_short: In **PVLDB 2021**
+publication: In *Proceedings of the **VLDB** Endowment Demo, 2021*
+publication_short: In **PVLDB Demo 2021**
 
 abstract: WiFi connectivity events, generated when a mobile device connects to WiFi access points can serve as a robust, passive, (almost) zero- cost indoor localization technology. The challenge is the coarse level localization it offers that limits its usefulness. We recently developed a novel data cleaning based approach, LOCATER, that exploits patterns in the network data to achieve accuracy as high as 90% at room level granularity making it possible to use network data to support a much larger class of applications. In this paper, we demonstrate one such application to help organizations track levels of occupancy, and potential exposure of the inhabitants of the buildings to others possibly infected on their premises. The system, entitled T-Cove, is in operational use at over 20 buildings at UCI and has now become part of the reopening procedure of the schools. The demonstration will highlight T-Cove functionalities over both live data and data captured in the past.
 

@@ -26,8 +26,8 @@ publishDate: "2023-02-15T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In **ASTRIDE@ICDE 2023**
-publication_short: In **ASTRIDE@ICDE 2023**
+publication: In **ASTRIDE@ICDE 2023**, Winner of the **first place** in the ASTRIDE workshop competition.
+publication_short: In **ASTRIDE@ICDE 2023**, Winner of the **first place** in the ASTRIDE workshop competition.
 
 abstract: Occupancy is essential for energy saving and space planning in buildings. Current approaches rely on various sensor  hardware, which is intrusive and probably expensive. This work proposed a robust, almost zero-cost occupancy computation approach using WiFi connectivity logs. The ubiquity of WiFi connectivity data enables our occupancy solution to be used passively and in all types of buildings with WiFi infrastructure. Estimating an accurate occupancy count from the WiFi connectivity data is challenging, and the streaming nature of connectivity logs requires the algorithms to be efficient enough to make (near) real-time computation. We proposed a series of approaches to efficiently and effectively compute occupancy at a given location inside a building in the given time range. The proposed occupancy strategy has been implemented, deployed, and running in more than 30 buildings in 2 different universities, for nearly 3 years. #
 

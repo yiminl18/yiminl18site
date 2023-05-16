@@ -26,8 +26,8 @@ publishDate: "2023-04-05T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Under review in **PVLDB, 2024**
-publication_short: Under review in **PVLDB, 2024**
+publication: Under revision in **PVLDB, 2024**
+publication_short: Under revision in **PVLDB, 2024**
 
 # abstract: In big data era, information integration often requires abundant data extracted from massive data sources. Due to a large number of data sources, data source selection plays a crucial role in information integration, since it is costly and even impossible to access all data sources. Data Source selection should consider both efficiency and effectiveness issues. For efficiency, the approach should scale to large data source amount. From effectiveness aspect, data quality and overlapping of sources are to be considered. In this paper, we study source selection problem in Big Data and propose methods which can scale to datasets with up to millions of data sources and guarantee the quality of results. Motivated by this, we propose a new metric taking the expected number of true values a source can provide as a criteria to evaluate the contribution of a data source. Based on our proposed index, we present a scalable algorithm and two pruning strategies to improve the efficiency without sacrificing precision. Experimental results on both real world and synthetic data sets show that our methods can select sources providing a large proportion of true values efficiently and can scale to massive data sources. 
 

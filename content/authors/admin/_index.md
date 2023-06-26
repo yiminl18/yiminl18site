@@ -99,4 +99,6 @@ highlight_name: true
 
 Yiming is currently a PhD student from [ISG group]('https://isg.ics.uci.edu'), University of California, Irvine from 2017, under the supervision of [Prof. Sharad Mehrotra]('https://www.ics.uci.edu/~sharad/'). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research area mainly focuses on data management, specifically in data cleaning, data preparation, query processing and query optimization. 
 
+He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px]('https://500px.com.cn/yiminl18ihe')!  
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Yiming-2022.pdf" "newtab" >}}resumé{{< /staticref >}}.

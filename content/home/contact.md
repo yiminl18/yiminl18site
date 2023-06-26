@@ -9,7 +9,7 @@ headless: true
 weight: 130
 
 title: Contact
-subtitle: Hi From California!
+subtitle: Hello From California!
 
 
 content:

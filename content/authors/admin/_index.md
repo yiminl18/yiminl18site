@@ -6,11 +6,11 @@ title: Yiming Lin
 superuser: true
 
 # Role/position/tagline
-role: PhD Student 
+role: Postdoctoral Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of California, Irvine
+- name: University of California, Berkeley
   url: https://uci.edu
 
 # Short bio (displayed in user profile at end of posts)
@@ -97,7 +97,7 @@ email: "yiminl18@uci.edu"
 highlight_name: true
 ---
 
-Yiming is currently a PhD student from [ISG group](https://isg.ics.uci.edu), University of California, Irvine from 2017, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research area mainly focuses on data management, specifically in data cleaning, data preparation, query processing and query optimization. 
+Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research area mainly focuses on data management, specifically in data cleaning, data preparation, query processing and query optimization. 
 
 He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px](https://500px.com/p/yiminl18?view=photos)!  
 

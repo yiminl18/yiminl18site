@@ -11,7 +11,7 @@ role: Postdoctoral Fellow
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: University of California, Berkeley
-  url: https://uci.edu
+  url: https://www.berkeley.edu
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Data Cleaning, Data Preparation, Query Processing, Query Optimization.
@@ -50,7 +50,7 @@ interests:
 connections:
 - icon: envelope
   icon_pack: fas
-  link: yiminl18@uci.edu
+  link: yiminglin@berkeley.edu
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
@@ -77,7 +77,7 @@ social:
 #   link: https://github.com/gcushen
 - icon: envelope
   icon_pack: fas
-  link: yiminl18@berkeley.edu
+  link: yiminglin@berkeley.edu
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
@@ -93,7 +93,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yiminl18@berkeley.edu"
+email: "yiminglin@berkeley.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

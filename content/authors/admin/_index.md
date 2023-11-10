@@ -75,7 +75,7 @@ social:
 #   link: https://github.com/gcushen
 - icon: envelope
   icon_pack: fas
-  link: yiminl18@uci.edu
+  link: yiminl18@berkeley.edu
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
@@ -91,13 +91,13 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yiminl18@uci.edu"
+email: "yiminl18@berkeley.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research area mainly focuses on data management, specifically in data cleaning, data preparation, query processing and query optimization. 
+Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research interests lie in the domain of building large-scale data management systems for structured and unstructured data, concentrating on optimizations in the query optimizer, query executor, and the methodologies for data preparation and cleaning. 
 
 He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px](https://500px.com/p/yiminl18?view=photos)!  
 

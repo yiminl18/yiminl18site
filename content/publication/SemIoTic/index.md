@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Demo Abstract: SemIoTic: Bridging the Semantic Gap in IoT Spaces"
 
 # Authors
@@ -80,4 +80,4 @@ url_pdf: 'https://hal.inria.fr/hal-02298610/'
 
 #projects: LOCATER
 ---
-
+ -->

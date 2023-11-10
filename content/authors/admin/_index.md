@@ -18,10 +18,12 @@ bio: My research interests include Data Cleaning, Data Preparation, Query Proces
 
 # Interests to show in About widget
 interests:
+- Unstructured Data Management
 - Data Cleaning
 - Data Preparation
 - Query Processing
 - Query Optimization
+
 
 # contact_links:
 #     - icon: linkedin

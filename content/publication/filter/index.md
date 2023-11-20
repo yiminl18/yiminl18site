@@ -29,7 +29,11 @@ publication_types: ["1"]
 publication: In **SIGMOD, 2023**
 publication_short: In **SIGMOD, 2023**
 
-# abstract: In big data era, information integration often requires abundant data extracted from massive data sources. Due to a large number of data sources, data source selection plays a crucial role in information integration, since it is costly and even impossible to access all data sources. Data Source selection should consider both efficiency and effectiveness issues. For efficiency, the approach should scale to large data source amount. From effectiveness aspect, data quality and overlapping of sources are to be considered. In this paper, we study source selection problem in Big Data and propose methods which can scale to datasets with up to millions of data sources and guarantee the quality of results. Motivated by this, we propose a new metric taking the expected number of true values a source can provide as a criteria to evaluate the contribution of a data source. Based on our proposed index, we present a scalable algorithm and two pruning strategies to improve the efficiency without sacrificing precision. Experimental results on both real world and synthetic data sets show that our methods can select sources providing a large proportion of true values efficiently and can scale to massive data sources. 
+ abstract: Predicate pushing down is a key optimization used to speed up query processing. Much of the existing practice is restricted to pushing predicates explicitly listed in the query. In this paper, we consider the challenge of learning predicates  during query execution which are then exploited to accelerate execution. Prior related approaches with a similar goal are restricted (e.g., 
+learn from only join columns or from specific data statistics). 
+We significantly expand the realm of  predicates that can be learned from different  query
+operators (aggregations, joins, grouping, etc.) and develop a system, entitled PLAQUE, that 
+learns such predicates during query execution.   Comprehensive evaluations on both synthetic and real datasets demonstrate that the learned predicate approach adopted by PLAQUE can significantly  accelerate query execution by up to 33x, and this improvement increases to up to 100x when User-Defined Functions (UDFs) are utilized in queries.  
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

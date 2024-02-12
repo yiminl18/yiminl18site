@@ -17,7 +17,7 @@ authors:
 #doi: "10.14778/3476311.3476344"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-04-06T00:00:00Z"
+publishDate: "2024-02 T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,8 +26,8 @@ publishDate: "2023-04-06T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In **SIGMOD, 2023**
-publication_short: In **SIGMOD, 2023**
+publication: In **SIGMOD, 2024**
+publication_short: In **SIGMOD, 2024**
 
  abstract: Predicate pushing down is a key optimization used to speed up query processing. Much of the existing practice is restricted to pushing predicates explicitly listed in the query. In this paper, we consider the challenge of learning predicates  during query execution which are then exploited to accelerate execution. Prior related approaches with a similar goal are restricted (e.g., 
 learn from only join columns or from specific data statistics). 

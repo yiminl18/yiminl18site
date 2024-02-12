@@ -29,7 +29,9 @@ publication_types: ["1"]
 publication: In **PVLDB, 2024**
 publication_short: In **PVLDB, 2024**
 
-# abstract: In big data era, information integration often requires abundant data extracted from massive data sources. Due to a large number of data sources, data source selection plays a crucial role in information integration, since it is costly and even impossible to access all data sources. Data Source selection should consider both efficiency and effectiveness issues. For efficiency, the approach should scale to large data source amount. From effectiveness aspect, data quality and overlapping of sources are to be considered. In this paper, we study source selection problem in Big Data and propose methods which can scale to datasets with up to millions of data sources and guarantee the quality of results. Motivated by this, we propose a new metric taking the expected number of true values a source can provide as a criteria to evaluate the contribution of a data source. Based on our proposed index, we present a scalable algorithm and two pruning strategies to improve the efficiency without sacrificing precision. Experimental results on both real world and synthetic data sets show that our methods can select sources providing a large proportion of true values efficiently and can scale to massive data sources. 
+abstract: This paper develops a query-time missing value imputation framework, entitled ZIP, that modifies relational operators to be imputation-aware in order to minimize the joint cost of  imputing and query processing. The modified operators use 
+a cost-based decision function to determine whether to invoke imputation or to defer  to downstream operators to resolve missing values. The modified query processing logic ensures  results  with deferred imputations are identical to those produced if all missing values were imputed first. ZIP includes a novel outer-join based approach to preserve missing values during execution, 
+and a bloom filter based index to optimize the space and running overhead.  Extensive experiments on both real and synthetic data sets demonstrate  10 to 25 times improvement when augmenting the state-of-the-art technology, ImputeDB, with ZIP-based deferred imputation. ZIP also outperforms the offline approach by up to 19607 times in a real data set. 
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -44,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: 'https://reader.elsevier.com/reader/sd/pii/S0020025518309162?token=0E21FBA8D0DC1E6AF07A55556117385E677F43031BC1377C1D6B2E6E134C2A50576851EA2B092B2B9210EC56DC74F9A7&originRegion=us-east-1&originCreation=20220408180356'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.14778/3617838.3617841'
 #url_code: 'https://github.com/yiminl18/contactExposure.git'
 #url_dataset: ''
 #url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'

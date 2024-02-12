@@ -29,7 +29,7 @@ publication_types: ["1"]
 publication: In **SIGMOD, 2024**
 publication_short: In **SIGMOD, 2024**
 
- abstract: Predicate pushing down is a key optimization used to speed up query processing. Much of the existing practice is restricted to pushing predicates explicitly listed in the query. In this paper, we consider the challenge of learning predicates  during query execution which are then exploited to accelerate execution. Prior related approaches with a similar goal are restricted (e.g., 
+abstract: Predicate pushing down is a key optimization used to speed up query processing. Much of the existing practice is restricted to pushing predicates explicitly listed in the query. In this paper, we consider the challenge of learning predicates  during query execution which are then exploited to accelerate execution. Prior related approaches with a similar goal are restricted (e.g., 
 learn from only join columns or from specific data statistics). 
 We significantly expand the realm of  predicates that can be learned from different  query
 operators (aggregations, joins, grouping, etc.) and develop a system, entitled PLAQUE, that 

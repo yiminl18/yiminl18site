@@ -9,7 +9,7 @@ authors:
 - Haotian Li
 - Parth Asawa
 - Madelon Hulsebos
-- Yiming Lin
+- admin
 - J.D. Zamfirescu-Pereira
 - Harrison Chase
 - Will Fu-Hinthorn

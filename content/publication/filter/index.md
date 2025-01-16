@@ -44,7 +44,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: 'https://reader.elsevier.com/reader/sd/pii/S0020025518309162?token=0E21FBA8D0DC1E6AF07A55556117385E677F43031BC1377C1D6B2E6E134C2A50576851EA2B092B2B9210EC56DC74F9A7&originRegion=us-east-1&originCreation=20220408180356'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3639301'
 #url_code: 'https://github.com/yiminl18/contactExposure.git'
 #url_dataset: ''
 #url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'

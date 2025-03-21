@@ -28,8 +28,8 @@ publishDate: "2025-02-18T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Preprint
-publication_short: Preprint
+publication: IEEE Data Engineering Bulletin March 2025 issue
+publication_short: IEEE Data Engineering Bulletin March 2025 issue
 
 abstract: With the power of LLMs, we now have the ability to query data that was previously impossible to query, including text, images, and video. However, despite this enormous potential, most present-day data systems that leverage LLMs are reactive, reflecting our community's desire to map LLMs to known abstractions. Most data systems treat LLMs as an opaque black box that operates on user inputs and data as is, optimizing them much like any other approximate, expensive UDFs, in conjunction with other relational operators. Such data systems do as they are told, but fail to understand and leverage what the LLMisbeingasked to do (i.e. the underlying operations, which may be error-prone), the data the LLM is operating on (e.g., long, complex documents), or what the user really needs. They don't take advantage of the characteristics of the operations and/or the data at hand, or ensure correctness of results when there are imprecisions and ambiguities. We argue that data systems instead need to be proactive. They need to be given more agency—armed with the power of LLMs—to understand and rework the user inputs and the data and to make decisions on how the operations and the data should be represented and processed. By allowing the data system to parse, rewrite, and decompose user inputs and data, or to interact with the user in ways that go beyond the standard single-shot query-result paradigm, the data system is able to address user needs more efficiently and effectively. These new capabilities lead to a rich design space where the data system takes more initiative. They are empowered to perform optimization based on the transformation operations, data characteristics, and user intent. We discuss various successful examples of how this framework has been and can be applied in real-world tasks, and present future directions for this ambitious research agenda. 
 
@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2502.13016'
+url_pdf: 'http://sites.computer.org/debull/A25mar/p90.pdf'
 #url_code: 'https://github.com/yiminl18/contactExposure.git'
 #url_dataset: ''
 #url_poster: 'https://drive.google.com/file/d/1h9mtTD7vOUaGqaXcFISmNzapGBcmAgAO/view'

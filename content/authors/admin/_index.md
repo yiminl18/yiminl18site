@@ -14,7 +14,7 @@ organizations:
   url: https://www.berkeley.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Data Cleaning, Data Preparation, Query Processing, Query Optimization.
+bio: My research interests include Document Analytics, Data System for Unstructured Data, Query Optimization, Data Preparation.
 
 # Interests to show in About widget
 interests:
@@ -99,8 +99,8 @@ email: "yiminglin@berkeley.edu"
 highlight_name: true
 ---
 
-Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned master and bachelor degrees of computer science in Harbin Institute of Technology. His research interests lie in the domain of building large-scale data management systems for structured and unstructured data, concentrating on optimizations in the query optimizer, query executor, and the methodologies for data preparation and cleaning. 
+Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/). Before that, he earned bachelor degree of computer science in Harbin Institute of Technology. Yiming is broadly interested in building data management systems at the intersection of structured and unstructured data with Large Language Models (LLMs). His recent research explores developing LLM-powered data systems for documents, with a focus on extracting latent structures from unstructured text, establishing provenance-based trust in LLM-generated answers, and designing agentic query engines to process natural language questions effectively. 
 
 He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px](https://500px.com/p/yiminl18?view=photos)!  
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Yiming-2022.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/" "newtab" >}}resumé{{< /staticref >}}.

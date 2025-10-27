@@ -103,4 +103,4 @@ Yiming is currently a Postdoctoral Researcher at University of California, Berke
 
 He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px](https://500px.com/p/yiminl18?view=photos)!  
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Yiming_Lin_2025.pdf" "newtab" >}}resumé{{< /staticref >}}.

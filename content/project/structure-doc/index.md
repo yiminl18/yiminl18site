@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: Structure-aware Document Analytics 
 summary: "*This blog describes one line of my research on ***accurate document analytics driven by document structures***, conducted from Fall 2023 to the present at UC Berkeley.* The vast majority (over 80%) of today's data exists in unstructured formats, with documents representing a major portion. When analyzing documents, current systems treat them as plain text sent to AI models (e.g., LLMs) for synthesis, ignoring underlying structures and thus leading to limited accuracy and performance. In this blog, we present a series of work that explores accurate document analytics by looking at document structures. We demonstrate that discovering structures within documents can significantly improve downstream analytics. In particular, we exhaustively explore and identify three types of document structures that encompass most real-world documents we have encountered: form-like templatized documents, hierarchically structured documents, and loose-metadata documents. For each type of document, we develop tools or systems to process them effectively for analytics." 
 tags:
@@ -53,11 +53,11 @@ While ZenDB is our first try to build hierarchical structures, our subsequent pr
 
 **3. Loose-Metadata Documents.**
 
-The last type of document is neither programmatically generated, as explored in TWIX, nor cleanly hierarchical, as in ZenDB or SHED. Instead, it contains only a list of metadata, such as headers of semantic document portions, with a loose structure. Our ongoing project LSF aims to reduce the cost of large-scale document analytics while matching the accuracy of top-tier LLMs (e.g., GPT-5) by leveraging minimally available metadata.
+The last type of document is neither programmatically generated, as explored in TWIX, nor cleanly hierarchical, as in ZenDB or SHED. Instead, it contains only a list of metadata, such as headers of semantic document portions, with a loose structure. Our ongoing project LSF aims to reduce the cost of large-scale document analytics while matching the accuracy of top-tier LLMs (e.g., GPT-5) by leveraging minimally available metadata. 
 
-Consider a toy example where the task is to extract author names from one million scientific papers. After using top-tier LLMs as oracles on a small sample, we observe that author names consistently appear either *on the first page beneath the title* or *in the text between the title and the Introduction or Abstract.* LSF constructs a structure that captures this *consistent pattern* across documents by leveraging metadata, semantics, and appearance order within each document.
+<!-- Consider a toy example where the task is to extract author names from one million scientific papers. After using top-tier LLMs as oracles on a small sample, we observe that author names consistently appear either *on the first page beneath the title* or *in the text between the title and the Introduction or Abstract.* LSF constructs a structure that captures this *consistent pattern* across documents by leveraging metadata, semantics, and appearance order within each document.
 
-To handle collections lacking shared patterns for a given task (e.g., a mixed collection of scientific papers and medical records), LSF clusters the documents such that those within the same cluster exhibit consistent patterns, and then solves the problem for each cluster separately.
+To handle collections lacking shared patterns for a given task (e.g., a mixed collection of scientific papers and medical records), LSF clusters the documents such that those within the same cluster exhibit consistent patterns, and then solves the problem for each cluster separately. -->
 
 **4. Structure-based Document Clustering.**
 
@@ -72,4 +72,4 @@ This line of research about document analytics has already produced several open
 ---
 
 
- -->
+

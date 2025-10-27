@@ -12,12 +12,12 @@ date: "2025-10-26T00:00:00Z"
 #   focal_point: "Smart"
 
 links:
-- name: Website 
-  url: ""
-- name: Paper
-  url: ""
-- name: Code
-  url: ""
+# - name: Website 
+#   url: ""
+# - name: Paper
+#   url: ""
+# - name: Code
+#   url: ""
 url_code: ""
 url_pdf: ""
 url_slides: ""

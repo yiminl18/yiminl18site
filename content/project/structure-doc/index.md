@@ -7,9 +7,9 @@ tags:
 date: "2025-10-26T00:00:00Z"
 
 # Featured image
-image:
-  caption: "Structure-aware Document Analytics"
-  focal_point: "Smart"
+# image:
+#   caption: "Structure-aware Document Analytics"
+#   focal_point: "Smart"
 
 links:
 - name: Website 

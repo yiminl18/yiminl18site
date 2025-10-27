@@ -24,9 +24,9 @@ url_slides: ""
 url_video: ""
 ---
 
-**Structure-aware Document Analytics**
+<!-- **Structure-aware Document Analytics** -->
 
-The vast majority (over 80%) of today’s data exists in unstructured formats, with documents representing a major portion. When analyzing documents, current systems treat them as plain text sent to AI models (e.g., LLMs) for synthesis, ignoring underlying structures and thus leading to limited accuracy and performance. In contrast, we explored the structure within documents and demonstrate that discovering them can significantly improve downstream analytics. In particular, we exhaustively explore and identify three types of document structures that encompass most real-world documents we have encountered: *form-like templatized documents, hierarchically structured documents, and loose-metadata documents.* For each type of document, we develop tools or systems to process them effectively for analytics. 
+The vast majority (over 80%) of today’s data exists in unstructured formats, with documents representing a major portion. When analyzing documents, current systems treat them as plain text sent to AI models (e.g., LLMs) for synthesis, ignoring underlying structures and thus leading to limited accuracy and performance. In contrast, we explored ***document structures*** and demonstrate that discovering them can significantly improve downstream analytics. In particular, we exhaustively explore and identify three types of document structures that encompass most real-world documents we have encountered: ***form-like templatized documents, hierarchically structured documents, and loose-metadata documents.*** For each type of document, we develop tools or systems to process them effectively for analytics. 
 
 ![Structure-aware Document Analytics](structured-aware-doc-analytics-cropped.jpg "Structure-aware Document Analytics") 
 
@@ -36,15 +36,15 @@ One common type of documents are programmatically generated from structured data
 
 ![twix](twix.png "TWIX: Extracting Data from Form-Like Templatized Documents")
 
-We develop [TWIX (SIGMOD 2026)](https://arxiv.org/abs/2501.06659), a tool that infers the underlying template used to generate documents and extracts data based on this template rather than directly from the documents. TWIX first identifies fields (e.g., table columns or key–value pairs) by leveraging consistent location patterns (e.g., fields in the same template repeatedly co-occur across records), and then assembles them into a template by enforcing visual constraints (e.g., vertically aligning table rows with their column headers). Once the template is inferred, it decomposes a complex document into simple records sharing the same template, making downstream data extraction *entirely free and fast*, without LLM calls. TWIX outperforms state-of-the-art structured data extraction tools (e.g., Azure Document Intelligence), and vision-based LLMs like GPT-4-Vision, by over 25% in precision and recall on a benchmark with 34 diverse real-world datasets, and 520× faster and 3,786× cheaper than the most competitive compared tool. Check our latest [blog for TWIX](https://data-people-group.github.io/blogs/2025/04/30/twix/). 
+We develop [TWIX (SIGMOD 2026)](https://arxiv.org/abs/2501.06659), a tool that infers the underlying template used to generate documents and extracts data based on this template rather than directly from the documents. TWIX first identifies fields (e.g., table columns or key–value pairs) by leveraging consistent location patterns (e.g., fields in the same template repeatedly co-occur across records), and then assembles them into a template by enforcing visual constraints (e.g., vertically aligning table rows with their column headers). Once the template is inferred, it decomposes a complex document into simple records sharing the same template, making downstream data extraction *entirely free and fast*, without LLM calls. TWIX outperforms state-of-the-art structured data extraction tools (e.g., Azure Document Intelligence), and vision-based LLMs like GPT-4-Vision, by ***over 25% in precision and recall on a benchmark with 34 diverse real-world datasets, and 520× faster and 3,786× cheaper than the most competitive compared tool***. Check our latest [blog for TWIX](https://data-people-group.github.io/blogs/2025/04/30/twix/). 
 
 **2. Hierarchical Structured Documents.**
 
-Another type of document contains semantic hierarchical structures, where hierarchies (e.g., section and subsection headers) form a tree-like structure, commonly seen in scientific and legal documents, etc. Consider: what is the most effective way for humans to read a 1,000-page document? An intuitive answer is to *read the table of contents to locate the relevant chapter.* 
+Another type of document contains semantic hierarchical structures, where hierarchies (e.g., section and subsection headers) form a tree-like structure, commonly seen in scientific and legal documents, etc. Consider: what is the most effective way for humans to read a 1,000-page document? An intuitive answer is to <u>*read the table of contents to locate the relevant chapter.*</u> 
 
 ![zendb](hierarchical-document.jpg "ZenDB: Extracting and Leveraging Hierarchical Structure from Hierarchically Structured Documents. ") 
 
-Inspired by this intuition, we develop [ZenDB (ICDE 2025)](https://arxiv.org/abs/2405.04674), a full-stack data management system, to construct such a "table of contents" for hierarchically structured documents, enabling LLMs to traverse this structure and pinpoint the relevant document portions for retrieval. Unlike RAG (Retrieval-Augmented Generation), which retrieves physically partitioned document chunks, ZenDB understands the semantic structure of documents, enabling highly accurate retrieval: up to 61% higher precision and 81% higher recall than RAG at a marginally higher cost.
+Inspired by this intuition, we develop [ZenDB (ICDE 2025)](https://arxiv.org/abs/2405.04674), a full-stack data management system, to construct such a "table of contents" for hierarchically structured documents, enabling LLMs to traverse this structure and pinpoint the relevant document portions for retrieval. Unlike RAG (Retrieval-Augmented Generation), which retrieves physically partitioned document chunks, ZenDB understands the semantic structure of documents, enabling highly accurate retrieval: ***up to 61% higher precision and 81% higher recall than RAG at a marginally higher cost.***
 
 ![TWIX](zendb.jpg "ZenDB: Hierarchical Document Processing") 
 
@@ -61,9 +61,9 @@ To handle collections lacking shared patterns for a given task (e.g., a mixed co
 
 **4. Structure-based Document Clustering.**
 
-A document collection provided by users or applications may contain a mixture of structures—*form-like*, *hierarchically structured*, or *loose-metadata* documents. We develop methods to cluster documents based on their structures into one of these three types so that the corresponding tools can be used to process each class of documents.
+A document collection provided by users or applications may contain a mixture of structures—*form-like*, *hierarchically structured*, or *loose-metadata* documents. We are developing methods to ***cluster documents based on their structures*** into one of these three types so that the corresponding tools can be used to process each class of documents.
 
-With this, we construct a *complete document ingestion pipeline* capable of processing documents with diverse structures, producing either clean structured data or accurate retrieval results for downstream analytical tasks. Notably, the extracted structures themselves are insightful by-products, offering ample opportunities for further optimization.
+With this, we construct a ***complete document ingestion pipeline*** capable of processing documents with diverse structures, producing either clean structured data or accurate retrieval results for downstream analytical tasks. Notably, the extracted structures themselves are insightful by-products, offering ample opportunities for further optimization.
 
 **Project Impact** 
 

@@ -13,7 +13,6 @@ description: ZenDB represents our first attempt to query document collections wi
 
 
 
-
 # image:
 #   caption: Photo by rawpixel on Unsplash
 #   focal_point: Smart

@@ -5,7 +5,7 @@ summary: Predicate pushing down is a key optimization used to speed up query pro
 tags:
 - Query Processing
 - Query Optimization
-date: "2024-1-01T00:00:00Z"
+date: "2024-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

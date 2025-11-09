@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Efficient entity resolution on heterogeneous records."
 
 # Authors
@@ -71,4 +71,4 @@ url_pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8637043'
 
 #projects: LOCATER
 ---
-
+ -->

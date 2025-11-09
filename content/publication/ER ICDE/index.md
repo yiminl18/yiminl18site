@@ -1,5 +1,5 @@
 ---
-title: "Efficient entity resolution on heterogeneous records. (Extended Abstract)"
+title: "Efficient entity resolution on heterogeneous records. "
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -47,6 +47,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
+#https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8637043
 url_pdf: 'https://icde.utdallas.edu/tkde-posters.html'
 # url_code: 'https://github.com/yiminl18/contactExposure.git'
 # url_dataset: ''

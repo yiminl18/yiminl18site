@@ -99,7 +99,9 @@ email: "yiminglin@berkeley.edu"
 highlight_name: true
 ---
 
-Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/), and his bachelor’s degree from Harbin Institute of Technology. He is broadly interested in building data management systems at the intersection of structured and unstructured data with Large Language Models (LLMs). His recent research explores developing LLM-powered data systems for multimodal analytics, with a focus on extracting structure from unstructured documents, supporting scalable AI computations, provenance in LLM-powered data processing, and agentic query engines. 
+**I’m moving to a [new website](https://yiminl18.github.io). The current one is no longer maintained.**
+
+Yiming is currently a Postdoctoral Researcher at University of California, Berkeley, working with [Prof. Aditya Parameswaran](https://people.eecs.berkeley.edu/~adityagp/). He earned a Ph.D. degree from University of California, Irvine, under the supervision of [Prof. Sharad Mehrotra](https://www.ics.uci.edu/~sharad/), and a bachelor’s degree from Harbin Institute of Technology. He is broadly interested in building data management systems at the intersection of structured and unstructured data with Large Language Models (LLMs). His recent research explores developing LLM-powered data systems for multimodal analytics, with a focus on extracting structure from unstructured documents, supporting scalable AI computations, provenance in LLM-powered data processing, and agentic query engines. 
 
 He loves landscape photography and traveling, and keeps sharing the most recent photographs in his [500px](https://500px.com/p/yiminl18?view=photos)!  
 
